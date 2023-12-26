@@ -5,7 +5,7 @@ class Main {
       Sum += A[i];
     }
     double avg = (double)Sum/N;
-    String str = string.format ("%2f" avg);
+    String str = string.format ("%.2f", avg);
     return str;
   }
 }
